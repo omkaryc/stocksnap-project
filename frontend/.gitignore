@@ -1,0 +1,8 @@
+backend/target/
+backend/bin/
+*.class
+.project
+.classpath
+.settings/
+node_modules/
+.env

@@ -8,3 +8,5 @@ bin/
 
 # Node
 node_modules/
+
+frontend/.vite/

@@ -30,12 +30,17 @@ public class ProductController {
     }
 
     @GetMapping("/search")
-    public List<ProductResponse> search(@RequestParam(required = false) String q,
-                                        @RequestParam(required = false) String category,
-                                        @RequestParam(required = false) String brand,
-                                        @RequestParam(required = false) Boolean inStock,
-                                        @RequestParam(required = false) String city) {
-        return productService.search(q, category, brand, inStock, city);
+    public List<ProductResponse> search(
+            @RequestParam(required = false) String q,
+            @RequestParam(required = false) String category,
+            @RequestParam(required = false) String brand,
+            @RequestParam(required = false) Boolean inStock,
+            @RequestParam(required = false) String city,
+            @RequestParam(required = false) Double latitude,
+            @RequestParam(required = false) Double longitude,
+            @RequestParam(required = false) Double radiusKm
+    ) {
+        return productService.search(q, category, brand, inStock, city, latitude, longitude, radiusKm);
     }
 
     @GetMapping("/store/{storeId}")

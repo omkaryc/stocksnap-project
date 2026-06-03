@@ -23,4 +23,13 @@ public class ProductResponse {
     private String city;
     private Double rating;
     private boolean storeVerified;
+
+    // ✅ NEW FIELDS
+    private String contactNumber;
+    private String whatsappNumber;
+    private Double latitude;
+    private Double longitude;
+    private String address;
+    private String openingTime;
+    private String closingTime;
 }

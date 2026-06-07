@@ -9,5 +9,4 @@ bin/
 # Node
 node_modules/
 
-.metadata/
 frontend/.vite/

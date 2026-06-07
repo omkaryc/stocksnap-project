@@ -136,6 +136,7 @@ export default function Products() {
   }
 
   return (
+    <div className="container mt-5">
     <div className="row g-4">
       <div className="col-lg-3">
         <div className="card shadow-sm sidebar-card">
@@ -274,6 +275,8 @@ export default function Products() {
           )}
         </div>
       </div>
+    </div>
+
     </div>
   )
 }

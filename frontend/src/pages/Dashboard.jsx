@@ -81,7 +81,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div>
+    <div className="container mt-5">
       <h2 className="mb-3">Dashboard</h2>
       {profile && <div className="alert alert-light border">Logged in as <strong>{profile.name}</strong> ({profile.role})</div>}
 

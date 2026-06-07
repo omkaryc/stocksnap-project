@@ -20,8 +20,8 @@ export default function Login() {
   }
 
   return (
-    <div className="row justify-content-center">
-      <div className="col-md-5">
+    <div className="row justify-content-center mt-5">
+      <div className="col-md-4 ">
         <div className="card shadow-sm">
           <div className="card-body p-4">
             <h2 className="mb-4">Login</h2>
@@ -29,11 +29,9 @@ export default function Login() {
             <form onSubmit={submit}>
               <div className="mb-3"><label className="form-label">Email</label><input className="form-control" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} /></div>
               <div className="mb-3"><label className="form-label">Password</label><input type="password" className="form-control" value={form.password} onChange={e=>setForm({...form,password:e.target.value})} /></div>
-              <button className="btn btn-primary w-100">Login</button>
+              <button className="btn btn-primary w-100 mb-3">Login</button>
             </form>
-            <div className="mt-3 small text-muted">
-              Demo accounts: admin@stocksnap.com / Admin@123, owner@stocksnap.com / Owner@123, customer@stocksnap.com / Customer@123
-            </div>
+          
           </div>
         </div>
       </div>

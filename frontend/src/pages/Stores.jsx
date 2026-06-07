@@ -9,7 +9,7 @@ export default function Stores() {
   }, [])
 
   return (
-    <div>
+    <div class="container mt-5">
       <h2 className="mb-4">Verified Stores</h2>
       <div className="row g-4">
         {stores.map(store => (

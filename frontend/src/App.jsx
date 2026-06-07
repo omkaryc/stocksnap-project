@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main className="container py-4">
+      <main >
         <AppRoutes />
       </main>
       <Footer />

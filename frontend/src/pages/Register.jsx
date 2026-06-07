@@ -20,8 +20,8 @@ export default function Register() {
   }
 
   return (
-    <div className="row justify-content-center">
-      <div className="col-md-6">
+    <div className="row justify-content-center mt-5">
+      <div className="col-md-5">
         <div className="card shadow-sm">
           <div className="card-body p-4">
             <h2 className="mb-4">Register</h2>

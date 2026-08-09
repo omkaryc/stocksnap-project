@@ -9,3 +9,6 @@ public class StockSnapApplication {
         SpringApplication.run(StockSnapApplication.class, args);
     }
 }
+
+
+
